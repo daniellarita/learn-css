@@ -1,0 +1,51 @@
+html {
+    box-sizing: border-box;
+    }
+
+/* .box {
+    border: 5px solid blue;
+    margin: 50px;
+    padding: 20px;
+    width: 50px;
+    display: block;
+} */
+
+.box {
+    position: relative; border: 5px solid #000; width: 100px;
+    height: 100px;
+    margin: 20px;
+    }
+    .box:before {
+    content: " ";
+    position: absolute; border: 5px solid blue; z-index: -1;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    }
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;;
+    background-color: green;
+    box-shadow: 0px 0px 0px 4px #000;
+}
+
+.eye {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    display: float;
+    box-shadow: 0px 0px 0px 5px black;
+}
+.eye:before {
+    content: " ";
+    position: absolute; border: 5px solid blue; z-index: -1;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+}
+

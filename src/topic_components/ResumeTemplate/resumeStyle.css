@@ -1,0 +1,19 @@
+
+.res-container {
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+    font-family: Courier New;
+}
+
+.header {
+    border: 1px solid #000;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.bio {
+    border: 1px solid #000;
+    width: 100%;
+}
