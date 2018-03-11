@@ -23,8 +23,10 @@ const ResumeTemplate = () => {
                                 { job.role.map(role => {
                                     return (
                                         <div>
-                                            <h4>{role.name}</h4>
-                                            <h5 className="dates">{role.date}</h5>
+                                            <div className="exp-subheader">
+                                                <h4>{role.name}</h4>
+                                                <h5 className="dates">{role.date}</h5>
+                                            </div>
                                             <ul>
                                                 {role.bullets.map(bullet => {
                                                     return <li>{bullet}</li>
@@ -42,8 +44,10 @@ const ResumeTemplate = () => {
                     {res.EDUCATION.map(school => {
                         return (
                             <div>
-                                <h4>{school.name}, {school.location}</h4>
-                                <h5 className="dates">{school.date}</h5>
+                                <div className="education-subheader">
+                                    <h4>{school.name}, {school.location}</h4>
+                                    <h5 className="dates">{school.date}</h5>
+                                </div>
                                 <p>{school.description}</p>
                             </div>
                         );
@@ -55,9 +59,9 @@ const ResumeTemplate = () => {
                 {Object.keys(res.SKILLS).map(level => {
                   return ( 
                     <div>
-                        <label>{level}:</label>
+                        <div className="skill-level">{level}:</div>
                         {res.SKILLS[level].map(skill => {
-                            return <p>{skill}</p>
+                            return <p className="skill">{skill}</p>
                         })}
                         <br></br>
                     </div>

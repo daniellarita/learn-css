@@ -2,41 +2,71 @@
 .res-container {
     display: flex;
     flex-flow: row wrap;
-    font-weight: bold;
-    text-align: center;
     font-family: Trebuchet MS;
 }
 
 .header {
     width: 100%;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .bio {
     width: 100%;
+    text-align: center;
+    font-style: italic;
 }
 
 .main-section {
-    width: 89%;
+    width: 85%;
+    margin: 10px;
+}
+
+.exp-subheader {
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    margin: 5px;
+}
+
+.education-subheader {
+    display: flex;
+    justify-content: space-between;
+}
+
+h4 {
+    margin: 5px;
+}
+
+h5 {
+    margin: 5px;
+}
+
+p {
+    margin: 5px;
 }
 
 .skills {
     width: 10%;
 }
 
-.skills label {
+.skill-level {
     text-decoration: underline;
     font-weight: bold;
+    text-align: center;
+}
+
+.skill {
+    text-align: center;
 }
 
 
 .section-header {
     text-transform: uppercase;
     font-weight: bold;
-}
-
-div {
-    border: 1px solid #000; 
+    text-align: center;
 }
 
 .dates {
