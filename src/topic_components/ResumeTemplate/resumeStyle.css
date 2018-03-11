@@ -4,16 +4,41 @@
     flex-flow: row wrap;
     font-weight: bold;
     text-align: center;
-    font-family: Courier New;
+    font-family: Trebuchet MS;
 }
 
 .header {
-    border: 1px solid #000;
     width: 100%;
     text-transform: uppercase;
 }
 
 .bio {
-    border: 1px solid #000;
     width: 100%;
+}
+
+.main-section {
+    width: 89%;
+}
+
+.skills {
+    width: 10%;
+}
+
+.skills label {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+.section-header {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+div {
+    border: 1px solid #000; 
+}
+
+.dates {
+    text-transform: uppercase;
 }
