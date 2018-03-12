@@ -14,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-      <div className="App">
+      <div>
         <h3>Topics</h3>
         <ul>
           <li><Link to="/box-display">BoxDisplay</Link></li>
